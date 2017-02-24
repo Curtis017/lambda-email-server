@@ -1,0 +1,15 @@
+{
+  "name": "lambda-email-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "rm -f ./index.zip && zip -r index.zip ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.18.0"
+  }
+}
